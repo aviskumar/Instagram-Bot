@@ -4,9 +4,9 @@ class Config:
     API_ID = int(os.environ.get("API_ID", "1074100"))
     API_HASH = os.environ.get("API_HASH", "e51aa7c56708e0408d1709349d34e284")
     BOT_TOKEN = os.environ.get("BOT_TOKEN", "1823031230:AAF1vpVNsQCZ07WHFFKFFwUpxtIB7EZ0Iss") 
-    USER = os.environ.get("INSTAGRAM_USERNAME", "")
-    OWNER = os.environ.get("OWNER_ID", "")
-    INSTA_SESSIONFILE_ID = os.environ.get("INSTA_SESSIONFILE_ID", None)
+    USER = os.environ.get("INSTAGRAM_USERNAME", "publicsudo")
+    OWNER = os.environ.get("OWNER_ID", "1720705802")
+    INSTA_SESSIONFILE_ID = os.environ.get("INSTA_SESSIONFILE_ID", BQACAgUAAxkDAAMCYQf3rMcvPHKOvE60d2rpeq4V6t0AAjkDAAJRnUFUfVrydkQ5EZceBA)
     S = "0"
     STATUS = set(int(x) for x in (S).split())
     L=Instaloader()
